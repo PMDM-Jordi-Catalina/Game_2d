@@ -1,0 +1,464 @@
+Unity Editor version:    2021.3.16f1 (4016570cf34f)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2
+Kernel version:          5.19.0-43-generic
+Architecture:            x86_64
+Available memory:        15644 MB
+Using pre-set license
+Pro License: YES
+Desktop is 3840 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/jordi/UnityProjects/2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+33827
+Successfully changed project path to: /home/jordi/UnityProjects/2D
+/home/jordi/UnityProjects/2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140626034606976] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 2517259866 [EditorId] 2517259866 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140626034606976] Host "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 2517259866 [EditorId] 2517259866 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.108) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 59,26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path /home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/jordi/UnityProjects/2D/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) Xe Graphics (TGL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 22.2.5
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture
+_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -804764624
+../src/intel/isl/isl.c:2216: FINISHME: ../src/intel/isl/isl.c:isl_surf_supports_ccs: CCS for 3D textures is disabled, but a workaround is available.
+Initialize mono
+Mono path[0] = '/home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = '/home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56130
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /home/jordi/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,006130 seconds.
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68,48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (457ms)
+		BeginReloadAssembly (36ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (341ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,002594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/jordi/UnityProjects/2D/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/jordi/UnityProjects/2D/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63,42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (144,3 KB). Loaded Objects now: 4509.
+Memory consumption went from 146,8 MB to 146,6 MB.
+Total: 3,198825 ms (FindLiveObjects: 0,245434 ms CreateObjectMapping: 0,116948 ms MarkObjects: 2,642754 ms  DeleteObjects: 0,192737 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186,840266 seconds.
+  path: Assets/Warped Shooting Fx/Pixel Art/Pulse
+  artifactKey: Guid(6fae71a45270f4e7d8068e5c4c82c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Shooting Fx/Pixel Art/Pulse using Guid(6fae71a45270f4e7d8068e5c4c82c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac43d27e39bb4bf4da96a18ad47a12f') in 0,006425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5,167537 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands
+  artifactKey: Guid(5ddda599cc54b63419016da8b7dfa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands using Guid(5ddda599cc54b63419016da8b7dfa947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d598fc048750f74da5e1dfe01720773') in 0,000767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,345213 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Enemy
+  artifactKey: Guid(366d96219b544224c9621921403c67bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Enemy using Guid(366d96219b544224c9621921403c67bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e98daafc326ac6dbbdb5fe981fb6448') in 0,000432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,137680 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Enemy/EnemySheet.png
+  artifactKey: Guid(fc1d67a4622f38e4a97f5152c1977ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Enemy/EnemySheet.png using Guid(fc1d67a4622f38e4a97f5152c1977ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e3ef8533b104eaee53a9bbe794ac91') in 0,055117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,917922 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/CharacterSheet.png
+  artifactKey: Guid(496562456fdbe6647887febf11640c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Character/CharacterSheet.png using Guid(496562456fdbe6647887febf11640c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8809b54968b239c0e4bf520b05db5c2') in 0,020425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,675816 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background1.png
+  artifactKey: Guid(9b45b88c36c56554ead974cff48f98bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background1.png using Guid(9b45b88c36c56554ead974cff48f98bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb9dc0e5bae1544f569e72de20cb5f8') in 0,011994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background4.png
+  artifactKey: Guid(0b211dc3d14c1ba459b21a44e5038f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background4.png using Guid(0b211dc3d14c1ba459b21a44e5038f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41be9fe332724b18ba55db76789e24d') in 0,013878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000019 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background3.png
+  artifactKey: Guid(cd139cad4817e7144a2c0c2bb7cf8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background3.png using Guid(cd139cad4817e7144a2c0c2bb7cf8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c86ca84b2d1b564c845c146e2352ac') in 0,022295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background5.png
+  artifactKey: Guid(0fbbe850674cd2342a0debf3a96b5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Background/Background5.png using Guid(0fbbe850674cd2342a0debf3a96b5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ce1bce7c4d2937f0a0f42bc3921294') in 0,005896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8,492694 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Bush1.prefab
+  artifactKey: Guid(cc92fc30c0cc12843ace4dfba1b2a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Bush1.prefab using Guid(cc92fc30c0cc12843ace4dfba1b2a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cea890d5922934464ef4837b7071b86') in 0,026842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000018 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock1.prefab
+  artifactKey: Guid(6bc4f20031ab7a943b8123b5af05b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock1.prefab using Guid(6bc4f20031ab7a943b8123b5af05b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cfe7d99ff0d3b2ab87fbe4bc1c521d') in 0,004039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000018 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock2.prefab
+  artifactKey: Guid(7f7b34cda5ce2b845affdea1f5af3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock2.prefab using Guid(7f7b34cda5ce2b845affdea1f5af3cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a062cfee7f3c9b844e3aabca9123e867') in 0,004828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock3.prefab
+  artifactKey: Guid(6accc788deb588846bc4f6768c625fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Rock3.prefab using Guid(6accc788deb588846bc4f6768c625fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defeac2c85cc8780fb4e6d11bf2f5065') in 0,003632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Tree2.prefab
+  artifactKey: Guid(512108d047703db44a09d9aa681173d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Prefabs/Tree2.prefab using Guid(512108d047703db44a09d9aa681173d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c7b197684018f921cfcd38c80404a') in 0,003248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12,260176 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor/Decor.png
+  artifactKey: Guid(198c5cf9dad20144995fd44cf395c218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Decor/Decor.png using Guid(198c5cf9dad20144995fd44cf395c218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55006abd82c825f6f320a5110059e0da') in 0,030589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,682353 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/DirtBackgroundTiles.png
+  artifactKey: Guid(3a6f603276eca1e4dab29831a1cfd471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/DirtBackgroundTiles.png using Guid(3a6f603276eca1e4dab29831a1cfd471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7087f55e36e4a2bd17c3a40be3f0a0fa') in 0,041688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/SpikeTiles.png
+  artifactKey: Guid(175243fb8f05f7244adb8932589fda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/SpikeTiles.png using Guid(175243fb8f05f7244adb8932589fda03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0645e8dd773913d17675994a6e63c900') in 0,017954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png
+  artifactKey: Guid(66453c654294d2045aa5eb98e5ea9f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png using Guid(66453c654294d2045aa5eb98e5ea9f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93922a5b33bd241b8f5ea40a38f69118') in 0,132372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4,808456 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Platformer Palette.prefab
+  artifactKey: Guid(572c26a0233c5634d87e192be0336ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Platformer Palette.prefab using Guid(572c26a0233c5634d87e192be0336ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfd20cef70cf55f95a7eda8db77b454') in 0,041428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,720299 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles
+  artifactKey: Guid(8cb3e0608e7a4ea4e8c5a425d0e8e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles using Guid(8cb3e0608e7a4ea4e8c5a425d0e8e93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3294f893d2faa64184d37b18911478ff') in 0,000711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,837269 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_0.asset
+  artifactKey: Guid(0bba56b50b4245742bf05b551cc53ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_0.asset using Guid(0bba56b50b4245742bf05b551cc53ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5262402fa8939aad7edb5bb6d91b1c') in 0,004807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_11.asset
+  artifactKey: Guid(4720c8cb881093f41b6ad8cbb234af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_11.asset using Guid(4720c8cb881093f41b6ad8cbb234af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7a88eb1272e205f154f666839fab7') in 0,003635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_36.asset
+  artifactKey: Guid(ef7f9d4e2e9c60f419fd4524eec4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_36.asset using Guid(ef7f9d4e2e9c60f419fd4524eec4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec6cd3e4387d1dbcdc3b33f71625369') in 0,003247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000017 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_5.asset
+  artifactKey: Guid(01757a4546b5ecb46894344a9526588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_5.asset using Guid(01757a4546b5ecb46894344a9526588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c927cd727e64a6746bf910f03dc062ad') in 0,002881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000015 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_10.asset
+  artifactKey: Guid(4aacb53454a7c604d9a5c903fef48a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_10.asset using Guid(4aacb53454a7c604d9a5c903fef48a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d7b43890a6493a260ec3f95c9b9953') in 0,005684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_17.asset
+  artifactKey: Guid(52efc029a481be7489c419f1f099369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_17.asset using Guid(52efc029a481be7489c419f1f099369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be72fce59bed5fb76a9cd091fbedbf7f') in 0,003829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000017 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_41.asset
+  artifactKey: Guid(07431814a355f0e40a96e4075a14c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_41.asset using Guid(07431814a355f0e40a96e4075a14c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ff8f8e156733e42471fde1edbbcab7') in 0,003984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000018 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_34.asset
+  artifactKey: Guid(34331f621e255a147b66852778eac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_34.asset using Guid(34331f621e255a147b66852778eac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f4ea221dd7acf2aa913c9d9ba6c900') in 0,002210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_42.asset
+  artifactKey: Guid(0caf4529f8b60e445b4ae1c5abb932ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_42.asset using Guid(0caf4529f8b60e445b4ae1c5abb932ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30b719aed3e3fda9f0946af3235e054') in 0,002704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_15.asset
+  artifactKey: Guid(67daccb121f2e1745a92532d52e9566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_15.asset using Guid(67daccb121f2e1745a92532d52e9566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438bb1be8ea0cdaa9686f6e313b6cec5') in 0,003050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_18.asset
+  artifactKey: Guid(249abfd80892d304a94ae82b6a28a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_18.asset using Guid(249abfd80892d304a94ae82b6a28a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd99e380cbc0e8c44e5389d1b8718201') in 0,004892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000017 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_4.asset
+  artifactKey: Guid(a0590d5c08b8b114090c47ffd93b7fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_4.asset using Guid(a0590d5c08b8b114090c47ffd93b7fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275a21b9442859949d08b4590eda656a') in 0,002692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_7.asset
+  artifactKey: Guid(d7067a3c940d2b94abfb164bf3b8a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_7.asset using Guid(d7067a3c940d2b94abfb164bf3b8a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a82ef3215e32c8dec267a0ec5a3134') in 0,006338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000019 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_12.asset
+  artifactKey: Guid(87a79123959cde64f8e7a7501f739e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_12.asset using Guid(87a79123959cde64f8e7a7501f739e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e63029e6ffb73b20aaf39982ecc2f09') in 0,005730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000020 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_13.asset
+  artifactKey: Guid(d5291ae61f8e3434588df422dae2aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_13.asset using Guid(d5291ae61f8e3434588df422dae2aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ccaacd7842032d8b9155fd06e562b9') in 0,007756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000012 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_6.asset
+  artifactKey: Guid(600724760407848418663912fdbde80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_6.asset using Guid(600724760407848418663912fdbde80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf56efaeb333c29204a6ddb0e7f8531') in 0,006145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_37.asset
+  artifactKey: Guid(910084d564f9539419a1badd016a6427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_37.asset using Guid(910084d564f9539419a1badd016a6427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ab6aa3fe07df609c6e4ec3f7c1eb4c') in 0,003281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000013 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_28.asset
+  artifactKey: Guid(073a4b3092131b245b11858fb937bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_28.asset using Guid(073a4b3092131b245b11858fb937bd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871d17b45d99f4dc263792f02e6849e6') in 0,004701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_6.asset
+  artifactKey: Guid(326453df5f51ddf45b4cb576577d943b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_6.asset using Guid(326453df5f51ddf45b4cb576577d943b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf3e41382f822d9a59e690175258781') in 0,002725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_29.asset
+  artifactKey: Guid(8bf10846b8f75ee46a6beca66cc53550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_29.asset using Guid(8bf10846b8f75ee46a6beca66cc53550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e16e6fec2cb2f4d7ff7bb2c5e167154') in 0,004138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000019 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_32.asset
+  artifactKey: Guid(c18232be089e0c04a9a1d60343ee1a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_32.asset using Guid(c18232be089e0c04a9a1d60343ee1a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f96bd801c6f4900675fb0e4ed750151') in 0,003792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_7.asset
+  artifactKey: Guid(a1e764bb64303c14b98a620c0b59c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_7.asset using Guid(a1e764bb64303c14b98a620c0b59c678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0800cecc272dd27879bd7d67981f372d') in 0,004981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000027 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_1.asset
+  artifactKey: Guid(1edd2a981032ea042bd7e4c45ec0293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtTiles_1.asset using Guid(1edd2a981032ea042bd7e4c45ec0293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16b5bca87735bb8819bb7d0c42ec546') in 0,002288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000014 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_38.asset
+  artifactKey: Guid(8098aa22e8127f644b88006f2f819018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_38.asset using Guid(8098aa22e8127f644b88006f2f819018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd96caa70603004401b31cbe31245be') in 0,005017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000016 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_40.asset
+  artifactKey: Guid(4ae95cbe4e75b14479ac983f7b43402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_40.asset using Guid(4ae95cbe4e75b14479ac983f7b43402b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0e860b1bb890146d887088331ec7c') in 0,002912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000020 seconds.
+  path: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_2.asset
+  artifactKey: Guid(e0a56004fa23af648ae8a7848967a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Tile Palette/Tiles/DirtBackgroundTiles_2.asset using Guid(e0a56004fa23af648ae8a7848967a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a8665c77a4f80bef6626fd9963ebae') in 0,005267 seconds 
